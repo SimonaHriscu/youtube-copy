@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#111111;
+    
+
+    
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.side{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    width: 20vw;
+    height: 5vh;
+    padding: 12px 25px;
+  
+}
+.fa-bars{
+    font-size: 1.3em;
+    padding-right: 20px;
+    
+}
+.fa-youtube{
+    color: #db4437;
+    font-size: 1.4rem ;
+}
+span{
+    color: #111111;
+    letter-spacing: -2px ;
+    font-weight: 500;
+   
+}
+
+
+.box2{
+    width: 20vw;
+    height: 20vh;
+    
+}
+.fa-home{
+    width: 1.3em;
+    margin: 22px 20px 5px 30px;  
+}
+.fa-fire{
+    width: 1.3em;
+    text-align: center;
+    margin: 22px 20px 5px 30px;  
+}
+.fa-folder-open{
+    width: 1.3em;
+    margin: 22px 20px 5px 30px;  
+}
+.box3{
+    width: 20vw;
+    height: 30vh; 
+}
+.subscriptions{
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.box4{
+    width: 20vw;
+    height: 50vh;
+    
+}
+.box5{
+    width: 20vw;
+    height: 18vh;
+    
+}
+
+
+
+/*Second half*/
+
+.content{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*Header*/
+.top-nav{
+    width: 80vw;
+    height: 10vh; 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+
+.header{
+    width: 80vw;
+    height: 5vh;    
+} 
+
+/*Search button*/
+#search{
+    width: 40vw;
+    height: 3vh;
+    margin: 10px 0 20px 30px;
+}
+.fa-search{
+    width: 4vw;
+    height: 2.2vh;
+    color: #606060;
+}
+/*Fixed nav*/
+.top-menu{
+    width: 80vw;
+    height: 5vh; 
+} 
+ul{
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    
+}
+li{
+    padding: 14px 20px 12px 35px;
+    color: #606060;
+}
+
+.center{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main{
+    width: 90vw;
+    height: 90vh; 
+}
+
+/*Featured Side*/
+
+.featured-channels{
+    width: 30vw;
+    height: 90vh;  
+}
+.featured{
+    color: #606060;
+}
+.sub-button{
+    width: 7vw;
+    height: 2.8vh;
+    padding-top: 2px;
+    margin: 10px 0px 5px 0;
+    color: #606060;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    font-size: 0.9rem;
+}
