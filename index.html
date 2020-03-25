@@ -17,7 +17,7 @@
         <div class="side">
             <div class="box1">
             <i class="fas fa-bars"></i>
-            <i class="fab fa-youtube"><span>YouTube</span></i>
+            <i class="fab fa-youtube"><span  class= "youTube" id="youTube" class="light-mode">YouTube</span></i>
              </div>
              <hr>
              
@@ -70,7 +70,7 @@
                    </div>
                    
                    <div class="side-icons">
-                    <i class="fas fa-home"></i>Black HOle Records 
+                    <i class="fas fa-home"></i>Black Hole Records 
                    </div>
                     <div class="side-icons">
                      <i class="fas fa-fire"></i>Show 158 more
@@ -206,6 +206,8 @@
      const centerClass = center.className;
      const nav = document.getElementById("nav")
      const navClass = nav.className;
+    //  const youTube = document.getElementById("YouTube")
+    //  const youTubeClass = youTube.className;
     //  const featured = document.getElementById("featured")
     //  const featuredClass = featured.className;
       body.className =
@@ -216,8 +218,8 @@
       centerClass === "dark-mode" ? "light-mode" : "dark-mode";
       nav.className = 
       navClass === "dark-mode" ? "light-mode" : "dark-mode";
-      // featured.className = 
-      // featuredClass === "dark-mode" ? "light-mode" : "dark-mode";
+      // youTube.className = 
+      // youTubeClass === "dark-mode" ? "light-mode" : "dark-mode";
 
    }
   </script>
