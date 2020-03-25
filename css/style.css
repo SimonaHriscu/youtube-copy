@@ -119,9 +119,16 @@ span{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color:#606060;
-    
+    /* color:#606060;    */
 }
+/* .content.dark-mode {
+    background-color: #111111;
+    color: #eee;
+  }
+.content.light-mode{
+    background-color: #eee;
+    color: #606060; 
+  } */
 
 /*Header*/
 .top-nav{
