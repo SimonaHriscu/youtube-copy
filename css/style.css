@@ -4,14 +4,11 @@
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
-body.dark-mode {
+.dark-mode {
     background-color: #111111;
     color: #eee;
   }
-body.light-mode{
-    background-color: #eee;
-    color: #111111;
-  }
+
 /*Body box*/
 .container{
     width: 100vw;
@@ -121,14 +118,7 @@ span{
     flex-direction: column;
     /* color:#606060;    */
 }
-/* .content.dark-mode {
-    background-color: #111111;
-    color: #eee;
-  }
-.content.light-mode{
-    background-color: #eee;
-    color: #606060; 
-  } */
+
 
 /*Header*/
 .top-nav{
@@ -286,7 +276,7 @@ li:hover{
 .main{
     width: 50vw;
     height: 90vh; 
-    margin: 10px 20px 20px 60px;
+    margin: 2vh 4vw 4vw 6vh;
     display: flex;
     flex-direction: column;
 }
@@ -301,12 +291,12 @@ li:hover{
     
 }
 .play-all-button{
-    margin-left: 20px;
+    margin-left: 3vw;
     color: #606060;
 }
 .fa-play{
     color: #606060;
-    margin-right: 10px;
+    margin-right: 2vw;
 }
 /*Video Gallery*/
 /*Main box*/
@@ -340,20 +330,20 @@ li:hover{
     height: 11vh;   
 }
 .video-title{
-    font-size: 0.9rem;
+    font-size: 2.2vh;
     font-weight: bold;
     margin-bottom:0.9vh;
 }
 .channel-name,
 .views-no{
-    font-size: 0.9rem;
+    font-size: 2.2vh;
     color: #606060;
 }
 .timer{
     width: 3.5vw;
     height: 2.4vh;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 2.2vh;
     color:#f1f1f1;
     background-color: black;
     position: relative;
@@ -371,7 +361,7 @@ li:hover{
 .featured{
     color: #606060;
     margin-bottom: 1.5vh;
-    font-size: 1rem;
+    font-size: 2.2vh;
     width: 20vw;
 }
 .channels-list{
@@ -390,19 +380,19 @@ li:hover{
     width: 15vw;
     height: 2vw;
     padding-top: 0.5vh;
-    font-size: 0.9rem;
+    font-size: 2.2vh;
 }
 
 .subscribe-button{
     width: 7vw;
     height: 3.2vh;
-    padding-top: 1.5px;
+    padding-top: 0.3vh;
     margin-bottom: 1.5vh;
     color: #606060;
     font-weight: bold;
     border: none;
     border-radius: 5%;
-    font-size: 0.9rem;
+    font-size: 2.2vh;
 }
 
 hr{
