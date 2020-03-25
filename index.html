@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>(47) The Net Ninja - YouTube</title>
   </head>
-  <body>
+  <body id="body" class="light-mode">
        <!--Body box-->
     <div class="container">
       <!--Side box-->
@@ -96,6 +96,10 @@
           <div class="header">
               <input type="search" name="search" id="search">
               <button><i class="fas fa-search"></i></button>
+             
+              <div class="night-mode">
+                <input type="checkbox" name="dark_light" id="switch" onclick="nightMode()">
+            </div>
               <div class="log-in">
                 <i class="fas fa-video"></i>
                 <i class="fas fa-landmark"></i>
@@ -189,5 +193,17 @@
         </div>
       </div>
     </div>
+
+
+    <!-- JS -->
+   <script>
+    const nightMode=()=> {
+     const body = document.getElementById("body");
+     const currentClass = body.className;
+      body.className =
+        currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+    }
+  </script>
+
   </body>
 </html>

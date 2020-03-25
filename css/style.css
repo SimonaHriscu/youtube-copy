@@ -3,9 +3,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
-    color:#111111;
-    
 }
+body.dark-mode {
+    background-color: #111111;
+    color: #eee;
+  }
+body.light-mode{
+    background-color: #eee;
+    color: #111111;
+  }
 /*Body box*/
 .container{
     width: 100vw;
@@ -155,6 +161,51 @@ button{
     border: 1px #6060607e solid;
     
 }
+/* Night Mode button */
+.night-mode{
+    position: absolute;
+    top:2.6vh;
+    right: 21vw;
+    transform: translate(-50%,-50%);
+}
+
+/* The long box */
+input[type="checkbox"]{
+    position: relative;
+    width: 3.2vw;
+    height: 2.6vh;
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0.514);
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    /* transition: .5s; */
+}
+
+input:checked[type="checkbox"]{
+    background:#e0dfdf ;
+}
+
+
+/* The slider */
+input[type="checkbox"]::before{
+    content:'';
+    position: absolute;
+    width: 1.5vw;
+    height:2.5vh;
+    border-radius: 50%;
+    top:0;
+    left: 0;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: .5s;
+}
+/* The slider when clicked */
+input:checked[type="checkbox"]::before{
+    left: 1.8vw;
+}
+
 /*Log-In area*/
 .log-in{
     width: 20vw;
