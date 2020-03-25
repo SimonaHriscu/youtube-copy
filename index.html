@@ -91,8 +91,8 @@
             <hr>
       </div>
        <!--Right box-->
-      <div class="content">
-        <header class ="top-nav">
+      <div class="content" id="content" class="light-mode">
+        <header class ="top-nav" >
           <div class="header">
               <input type="search" name="search" id="search">
               <button><i class="fas fa-search"></i></button>
@@ -107,7 +107,7 @@
                 <i class="fab fa-stripe-s"></i>
               </div>
             </div>
-          <div class="top-menu">
+          <div class="top-menu" id="nav" class="light-mode">
               <ul>
                   <li>HOME</li>
                   <li>VIDEOS</li>
@@ -121,7 +121,7 @@
          </div>
         </header>
          <!--Center gallery box-->
-        <div class="center">
+        <div class="center" id="center" class="light-mode">
           <div class="main">
               <div class="top-content-title">Modern JavaScript Tutorial
                   <div class="play-all-button"><i class="fas fa-play"></i>PLAY ALL
@@ -164,7 +164,7 @@
 
             <!--Featured channels side bar-->
 
-          <div class="featured-channels">
+          <div class="featured-channels" id="featured" class="light-mode">
            
                 <div class ="featured">FEATURED CHANNELS</div> 
                 <div class="channels-list">
@@ -200,9 +200,26 @@
     const nightMode=()=> {
      const body = document.getElementById("body");
      const currentClass = body.className;
+     const content = document.getElementById("content")
+     const contentClass = content.className;
+     const center = document.getElementById("center")
+     const centerClass = center.className;
+     const nav = document.getElementById("nav")
+     const navClass = nav.className;
+    //  const featured = document.getElementById("featured")
+    //  const featuredClass = featured.className;
       body.className =
-        currentClass === "dark-mode" ? "light-mode" : "dark-mode";
-    }
+      currentClass === "dark-mode" ? "light-mode" : "dark-mode";
+      content.className =
+      contentClass === "dark-mode" ? "light-mode" : "dark-mode";
+      center.className = 
+      centerClass === "dark-mode" ? "light-mode" : "dark-mode";
+      nav.className = 
+      navClass === "dark-mode" ? "light-mode" : "dark-mode";
+      // featured.className = 
+      // featuredClass === "dark-mode" ? "light-mode" : "dark-mode";
+
+   }
   </script>
 
   </body>
