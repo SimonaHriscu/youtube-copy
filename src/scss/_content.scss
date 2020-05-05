@@ -1,0 +1,87 @@
+.content {
+  width: 63vw;
+  height: 88vh;
+
+  .play-bar {
+    width: 22vw;
+    height: 7vh;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 9vw;
+    .top-content-title {
+      font-weight: bold;
+      margin: 0 1.3vw;
+    }
+    .play-all-button {
+      color: #606060;
+    }
+  }
+
+  .video-boxes {
+    width: 63vw;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .row1-box,
+    .row2-box,
+    .row3-box{
+      width: 51.5vw;
+      height: 22vh;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 0.5px solid #6060607a;
+      margin-right: 1vw;
+      .video1-box,
+      .video2-box,
+      .video3-box,
+      .video4-box {
+        width: 14vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+
+        // background-color: blue;
+        .video {
+          width: 10vw;
+          height: 14vh;
+          background-color: darkred;
+          display: flex;
+          flex-direction: column;
+        }
+        .timer {
+          width: 2vw;
+          height: 2vh;
+          text-align: center;
+          font-size: 1.3vh;
+          color: #f1f1f1;
+          background-color: black;
+          position: relative;
+          bottom: 1.7vh;
+          left: 8vw;
+        }
+        .video-text {
+          width: 12vw;
+          height: 11vh;
+          .video-title {
+            font-size: 1.6vh;
+            font-weight: bold;
+          }
+          .channel-name,
+          .views-no {
+            font-size: 1.4vh;
+            color: #606060;
+          }
+        }
+      }
+    }
+    .row2-box,
+    .row3-box{
+        margin-top: 3vh;
+    }
+  }
+}

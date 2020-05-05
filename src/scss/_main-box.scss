@@ -1,0 +1,22 @@
+@import "side-bar";
+@import "top-menu";
+@import "content.scss";
+@import "featured.scss";
+.main {
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: row;
+} 
+  .central{
+    width: 83vw;
+    height: 94vh;
+  }
+
+  .big-content{
+    width: 83vw;
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+}
