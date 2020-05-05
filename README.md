@@ -1,5 +1,6 @@
-# YouTube channel-page copy 
-*Only for learning purposes
+# YouTube channel - page copy with SCSS
+
+* Only for learning purposes
 
 
-![Imgur](https://i.imgur.com/tB1Elhs.png?1)
+![Imgur](https://i.imgur.com/L4TjDxd.png?1)
