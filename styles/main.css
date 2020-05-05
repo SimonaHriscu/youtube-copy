@@ -29,6 +29,7 @@ header .logo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 header .logo .fa-bars {
   font-size: 1.4rem;
@@ -66,6 +67,7 @@ header .search .fa-search {
 }
 header .search button {
   border: none;
+  cursor: pointer;
 }
 header .log-in {
   width: 15vw;
@@ -73,6 +75,7 @@ header .log-in {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 header .log-in .fa-video,
 header .log-in .fa-landmark,
@@ -124,6 +127,7 @@ header .log-in .fa-user-circle {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
 }
 .side-bar .box1 .side-icons:hover,
 .side-bar .box2 .side-icons:hover,
@@ -167,6 +171,7 @@ header .log-in .fa-user-circle {
   background-color: #f9f9f9;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .top-menu ul {
   width: 53vw;
@@ -239,6 +244,7 @@ header .log-in .fa-user-circle {
   height: 22vh;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .content .video-boxes .row1-box .video1-box .video,
 .content .video-boxes .row1-box .video2-box .video,
@@ -343,23 +349,24 @@ header .log-in .fa-user-circle {
 }
 
 .featured {
-  width: 20vw;
+  width: 15vw;
   height: 88vh;
 }
 .featured .container-featured {
   margin-top: 2vh;
-  width: 20vw;
+  width: 15vw;
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .featured .channels-list {
-  width: 20vw;
+  width: 15vw;
   height: 6vh;
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
 }
 .featured .channels-list [alt~=icon] {
   width: 1.3vw;
@@ -375,6 +382,7 @@ header .log-in .fa-user-circle {
   border: none;
   border-radius: 5%;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .main {
