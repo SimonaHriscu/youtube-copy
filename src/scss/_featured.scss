@@ -1,20 +1,21 @@
 .featured {
-  width: 20vw;
+  width: 15vw;
   height: 88vh;
   .container-featured {
     margin-top: 2vh;
-    width: 20vw;
+    width: 15vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
   .channels-list {
-    width: 20vw;
+    width: 15vw;
     height: 6vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 
     [alt~="icon"] {
       width: 1.3vw;
@@ -31,5 +32,6 @@
     border: none;
     border-radius: 5%;
     font-size: 1rem;
+    cursor: pointer;
   }
 }

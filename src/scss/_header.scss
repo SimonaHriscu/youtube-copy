@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 
     .fa-bars {
       font-size: 1.4rem;
@@ -54,6 +55,7 @@ header {
 
     button {
       border: none;
+      cursor: pointer;
     }
   }
 
@@ -63,6 +65,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    cursor: pointer;
 
     .fa-video,
     .fa-landmark,
