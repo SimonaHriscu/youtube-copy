@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SimonaHriscu/YouTube-copy.git"
+    "url": "git+https://github.com/SimonaHriscu/youtube-copy.git"
   },
   "author": "Simona",
   "license": "ISC",
@@ -31,7 +31,7 @@
     "install": "^0.13.0"
   },
   "bugs": {
-    "url": "https://github.com/SimonaHriscu/YouTube-copy/issues"
+    "url": "https://github.com/SimonaHriscu/youtube-copy/issues"
   },
-  "homepage": "https://github.com/SimonaHriscu/YouTube-copy#readme"
+  "homepage": "https://github.com/SimonaHriscu/youtube-copy#readme"
 }
